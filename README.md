@@ -1,2 +1,2 @@
-opendata
+Open Data
 ========
