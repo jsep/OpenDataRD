@@ -1,0 +1,29 @@
+#input-search{
+  height: 45px;
+  float: left;
+  font-size: 18px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#btn-search{
+  margin: 0;
+  height: 45px;
+  background: radial-gradient($blue, darken($blue,2%));
+  border: 2px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 6px ;
+  border-bottom-right-radius: 6px ;
+  color: $white;
+  font-size: 20px;
+
+  [class^="icon-"], [class*=" icon-"]{
+    margin-top: 3px;
+  }
+}
+
+[class^="icon-"], [class*=" icon-"]{
+  margin-right: 3px;
+}

@@ -149,10 +149,14 @@ $zindexModalBackdrop:     1040;
 $zindexModal:             1050;
 
 
+// Images path
+// -------------------------
+$imagesDirectory:          "../images/";
+
 // Sprite icons path
 // -------------------------
-$iconSpritePath:          "../images/glyphicons-halflings.png";
-$iconWhiteSpritePath:     "../images/glyphicons-halflings-white.png";
+$iconSpritePath:          "#{$imagesDirectory}glyphicons-halflings.png";
+$iconWhiteSpritePath:     "#{$imagesDirectory}glyphicons-halflings-white.png";
 
 
 // Input placeholder text color

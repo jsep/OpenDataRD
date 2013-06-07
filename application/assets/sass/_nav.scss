@@ -1,0 +1,25 @@
+.nav-tabs > li.active >a{
+  background: radial-gradient($blue, darken($blue,15%));
+  color: $white;
+  @include transition-property(all);
+  @include transition-duration(350ms);
+
+  //Overwritting bootstraps's .active:hover properties
+  &:hover{
+    color: $white;
+    background: radial-gradient($blue, darken($blue,15%));
+  }
+}
+
+.nav-tabs > li > a{
+  background: radial-gradient($blue, lighten($blue,2%));
+  color: $white;
+  @include transition-property(all);
+  @include transition-duration(350ms);
+
+  &:hover{
+    background: radial-gradient($blue, lighten($blue,2%));
+    color: $white;
+  }
+
+}

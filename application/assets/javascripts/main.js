@@ -3,7 +3,6 @@ $('.nav-tabs>li').on('click', function(){
 
     $('.nav-tabs').children().removeClass('active');
     $(this).addClass('active');
-
 });
 
 
@@ -17,6 +16,11 @@ $('.nav-tabs>li>a').on('click', function(){
     (link=='#estadisticas')? input_search.attr('placeholder','Busca datos y estadisticas'):link;
 });
 
+
+//Typeahead Initializer
 $('.typeahead').typeahead({
     source: ['Mitra','Ranfis','Juan']
 });
+
+//Chosen Initializer
+$(".chzn-select").chosen();

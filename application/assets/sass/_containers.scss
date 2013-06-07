@@ -1,1 +1,26 @@
 
+body{
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"],
+input[type="tel"], input[type="color"], .uneditable-input{
+  margin-bottom: 0;
+
+}
+
+div#search-wrapper{
+  margin-top: 10%;
+  background-color: $white;
+  border-radius: 6px;
+  padding: 2%;
+  box-shadow: 0 0 10px #6d6d6d;
+}
+
+div#search{
+  background-color: $white;
+}
