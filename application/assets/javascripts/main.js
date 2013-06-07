@@ -16,3 +16,7 @@ $('.nav-tabs>li>a').on('click', function(){
     (link=='#lugares')? input_search.attr('placeholder','Busca lugares y sitios'):link;
     (link=='#estadisticas')? input_search.attr('placeholder','Busca datos y estadisticas'):link;
 });
+
+$('.typeahead').typeahead({
+    source: ['Mitra','Ranfis','Juan']
+});

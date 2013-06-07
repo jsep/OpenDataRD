@@ -17,7 +17,8 @@
                 </ul>
             </div>
             <div id="search">
-                <input id="input-search" class="span11" type="text" placeholder="Buscar noticias y novedades"/>
+                <input id="input-search" class="span11 typeahead" type="text"
+                       placeholder="Buscar noticias y novedades"/>
                 <button id="btn-search" class="span1" type="submit"><i class="icon-search icon-white" ></i></button>
             </div>
         </div>
@@ -27,6 +28,7 @@
 
     <script src="<?php echo base_url ?>javascripts/jquery.js"></script>
     <script src="<?php echo base_url ?>javascripts/bootstrap-tab.js"></script>
+    <script src="<?php echo base_url ?>javascripts/bootstrap-typeahead.js"></script>
     <script src="<?php echo base_url ?>javascripts/main.js"></script>
 </body>
 </html>
