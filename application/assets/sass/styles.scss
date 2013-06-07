@@ -1,0 +1,94 @@
+// Import all the variables into the main css file.
+@import "compass";
+@import "variables";
+
+
+// I gather this file is a starting point for the project.
+@import "bootstrap";
+
+// Include responsive Bootstrap styles
+// @import "bootstrap-responsive";
+
+body{
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"],
+input[type="tel"], input[type="color"], .uneditable-input{
+  margin-bottom: 0;
+
+}
+
+div#search-wrapper{
+  margin-top: 10%;
+  background-color: $white;
+  border-radius: 6px;
+  padding: 2%;
+  box-shadow: 0 0 10px #6d6d6d;
+}
+
+
+.nav-tabs > li.active >a{
+  background: radial-gradient($blue, darken($blue,15%));
+  color: $white;
+  @include transition-property(all);
+  @include transition-duration(350ms);
+
+  //Overwritting bootstraps's .active:hover properties
+  &:hover{
+    color: $white;
+    background: radial-gradient($blue, darken($blue,15%));
+  }
+}
+
+.nav-tabs > li > a{
+  background: radial-gradient($blue, lighten($blue,2%));
+  color: $white;
+  @include transition-property(all);
+  @include transition-duration(350ms);
+
+  &:hover{
+    background: radial-gradient($blue, lighten($blue,2%));
+    color: $white;
+  }
+
+}
+
+
+div#search{
+  background-color: $white;
+}
+
+#input-search{
+  height: 45px;
+  float: left;
+  font-size: 18px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#btn-search{
+  margin: 0;
+  height: 45px;
+  background: radial-gradient($blue, darken($blue,2%));
+  border: 2px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 6px ;
+  border-bottom-right-radius: 6px ;
+  color: $white;
+  font-size: 20px;
+
+  [class^="icon-"], [class*=" icon-"]{
+    margin-top: 3px;
+  }
+}
+
+[class^="icon-"], [class*=" icon-"]{
+  margin-right: 3px;
+}
