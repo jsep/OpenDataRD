@@ -25,9 +25,9 @@
 </div>
 
 <!-- Scripts -->
-<script src="assets/javascripts/jquery.js"></script>
-<script src="assets/javascripts/main.js"></script>
-<script src="assets/javascripts/bootstrap-tab.js"></script>
+<script src="<?php echo $base_url ?>javascripts/jquery.js"></script>
+<script src="<?php echo $base_url ?>javascripts/main.js"></script>
+<script src="<?php echo $base_url ?>javascripts/bootstrap-tab.js"></script>
 
 </body>
 </html>
