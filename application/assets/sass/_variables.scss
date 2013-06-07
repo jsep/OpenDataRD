@@ -155,6 +155,8 @@ $imagesDirectory:          "../images/";
 
 // Sprite icons path
 // -------------------------
+$iconSpriteChosen:        "#{$imagesDirectory}chosen-sprite.png";
+$iconSpriteChosen2X:        "#{$imagesDirectory}chosen-sprite@2x.png";
 $iconSpritePath:          "#{$imagesDirectory}glyphicons-halflings.png";
 $iconWhiteSpritePath:     "#{$imagesDirectory}glyphicons-halflings-white.png";
 
