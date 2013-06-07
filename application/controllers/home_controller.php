@@ -13,8 +13,14 @@ class Home_controller extends CI_Controller {
         $provincias = $this->home_model->getProvincias();
 
         $this->load->view('head_view');
+//        $this->load->view('chosen');
         $this->load->view('home_view',$provincias);
 
+    }
+
+    public  function chosen(){
+
+        $this->load->view('head_view');
     }
 }
 
