@@ -1,7 +1,8 @@
 <body>
 <div id="page" class="row-fluid span12">
     <div id="content" class="row-fluid span10 offset1">
-        <div id="search-wrapper" class="row-fluid span10 offset1">
+        <div class="row-fluid  well span4 text-center"><h1>OpenDataRD</h1></div>
+        <div id="search-wrapper" class="row-fluid span10">
             <div id="navbar">
                 <ul class="nav nav-tabs">
                     <li>
@@ -16,8 +17,8 @@
                 </ul>
             </div>
             <div id="search">
-            <select data-placeholder="Choose a Country..." class="chzn-select" multiple style="width:350px;" tabindex="4">
-<!--                <select id="input-search" class="chzn-select" type="text" placeholder="Buscar noticias y novedades">-->
+            <select data-placeholder="Choose a Country..." id="input-search" class="chzn-select input-large " multiple style="width:350px;" tabindex="4">
+<!--                <select id=x"input-search" class="chzn-select" type="text" placeholder="Buscar noticias y novedades">-->
 <!--                <select data-placeholder="Choose a Country" class="chzn-select chzn-done" style="width: 350px;" tabindex="-1" id="selIQM">-->
                 <option value=""></option>
                 <option value="United States">United States</option>
