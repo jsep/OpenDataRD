@@ -1,10 +1,37 @@
-#input-search{
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"],
+input[type="tel"], input[type="color"], .uneditable-input{
+  margin-bottom: 0;
+
+}
+
+div#input-search{
   height: 45px;
+  padding: 5px;
   float: left;
   font-size: 18px;
+  border: 2px solid #0088cc;
   border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
   border-bottom-right-radius: 0;
+
+  input[type=text]{
+    margin-right: 1%;
+    height: 30px;
+    @extend .span3;
+    border:0;
+    box-shadow: 0 0 0;
+    &:focus{
+      box-shadow: 0 0 0;
+    }
+
+    .deltable{
+
+    }
+  }
+
 }
 
 #btn-search{

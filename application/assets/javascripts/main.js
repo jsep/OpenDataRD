@@ -18,9 +18,25 @@ $('.nav-tabs>li>a').on('click', function(){
 
 
 //Typeahead Initializer
-$('.typeahead').typeahead({
-    source: ['Mitra','Ranfis','Juan']
+$('.typeahead1').typeahead({
+    source: ['Mitra1','Ranfis1','Juan1']
 });
 
+$('.typeahead2').typeahead({
+    source: ['Mitra2','Ranfis2','Juan2']
+});
+
+$('.typeahead3').typeahead({
+    source: ['Mitra3','Ranfis3','Juan3']
+});
+
+$('.txt').keypress(function(e){
+    if(e.keyCode == '32' || e.keyCode == '0'){
+        alert('hey');
+    }
+    $(this).addClass('deletable');
+});
+
+
 //Chosen Initializer
-$(".chzn-select").chosen();
+//$(".chzn-select").chosen();
